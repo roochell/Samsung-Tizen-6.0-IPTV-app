@@ -1,0 +1,13 @@
+html, body { margin: 0; padding: 0; background: #0b0f14; color: #fff; font-family: Arial, sans-serif; }
+#app { position: absolute; inset: 0; padding-top: 88px; overflow-y: auto; }
+.topbar { position: fixed; left: 0; top: 0; right: 0; height: 88px; z-index: 30; background: linear-gradient(180deg,#152032,#0b0f14); display:flex; align-items:center; padding:0 40px; font-size: 32px; }
+.screen { padding: 24px 40px; }
+.top-title { font-size: 38px; margin-bottom: 12px; }
+.card { display:block; width:100%; text-align:left; border:0; color:#fff; background:#162231; margin:12px 0; padding:20px; border-radius:12px; font-size:24px; }
+.ch-page-layout { display:flex; flex-direction:column; height:calc(100vh - 120px); }
+.ch-fixed-head { flex:none; font-size:30px; margin-bottom: 10px; }
+.ch-scroll-list { flex:1; overflow-y:auto; }
+.pager { display:flex; gap:12px; }
+.form-row { display:flex; flex-direction:column; margin-bottom:8px; }
+.form-row input, .form-row select { font-size:22px; padding:8px; border-radius:6px; border:0; }
+.player-wrap { position:absolute; inset:0; }
